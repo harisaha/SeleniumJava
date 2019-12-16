@@ -55,8 +55,8 @@ public class CreateLead {
 		// Click on Create Lead (Submit) button
 		driver.findElementByClassName("smallSubmit").click();
 		// Verify the Lead is created by checking the Company or First Name
-		String checkName = driver.findElementByXPath("//*[@id='ext-gen613']").getText();
-		if (checkName.contains("toyato")) {
+		String checkName = driver.findElementById("viewLead_firstName_sp").getText();
+		if (checkName.contains("Hari")) {
 			System.out.println("success");
 		}else {
 			System.out.println("failure");
