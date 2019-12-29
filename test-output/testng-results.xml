@@ -1,56 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22427" started-at="2019-12-28T13:00:59 IST" finished-at="2019-12-28T13:01:21 IST">
+  <suite name="Suite" duration-ms="10676" started-at="2019-12-29T11:31:05 IST" finished-at="2019-12-29T11:31:15 IST">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunTest@bbe345]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="22427" started-at="2019-12-28T13:00:59 IST" finished-at="2019-12-28T13:01:21 IST">
-      <class name="runner.RunTest">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunTest@bbe345]" name="setUpClass" is-config="true" duration-ms="148" started-at="2019-12-28T13:00:59 IST" finished-at="2019-12-28T13:00:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunTest@bbe345]" name="runScenario" duration-ms="11944" started-at="2019-12-28T13:00:59 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-12-28T13:01:11 IST">
+    <test name="Test" duration-ms="10676" started-at="2019-12-29T11:31:05 IST" finished-at="2019-12-29T11:31:15 IST">
+      <class name="TestNGClass.CreateLead">
+        <test-method status="PASS" signature="methodCall(java.lang.String, java.lang.String)[pri:0, instance:TestNGClass.CreateLead@199d22e]" name="methodCall" is-config="true" duration-ms="7616" started-at="2019-12-29T11:31:05 IST" finished-at="2019-12-29T11:31:12 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA["To perform create lead positive scenario with mandatory field"]]>
+                <![CDATA[demosalesmanager]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["To perform create lead scenario"]]>
+                <![CDATA[crmsfa]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunTest@bbe345]" name="runScenario" duration-ms="10233" started-at="2019-12-28T13:01:11 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-12-28T13:01:21 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["To perform create lead positive scenario with mandatory field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["To perform create lead scenario"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- methodCall -->
+        <test-method status="PASS" signature="runCreateLead()[pri:0, instance:TestNGClass.CreateLead@199d22e]" name="runCreateLead" duration-ms="3015" started-at="2019-12-29T11:31:12 IST" finished-at="2019-12-29T11:31:15 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunTest@bbe345]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2019-12-28T13:01:21 IST" finished-at="2019-12-28T13:01:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- runner.RunTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- runCreateLead -->
+      </class> <!-- TestNGClass.CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
